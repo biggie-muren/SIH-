@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravah - the city in motion.</title>
+    
+    <!-- This is the crucial line that links your stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- This line prevents a common console error for a missing icon -->
+    <link rel="icon" href="data:;base64,=">
 </head>
 <body>
-  
+    <header class="header">
+        <nav class="container">
+            <a href="index.html" class="logo">Pravah</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>End the Wait. Know Your ETA.</h1>
+            <p>Bringing real-time public transport tracking to your city.</p>
+            <a href="login.html" class="cta-button">Track Your Bus Now</a>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Pravah. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
